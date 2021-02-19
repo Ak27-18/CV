@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+</head>
+
+<body>
+  <h1>Contact Details</h1>
+  <ul>
+    <li>
+      Phone number: 99999-88888
+    </li>
+    <li>
+      emailadress: something@icloud
+    </li>
+    <li>
+      Twitter: @aksomething
+    </li>
+    <li>
+      Address: somewhere out of this planet
+    </li>
+  </ul>
+
+  <!-- THE AOBVE LOOKS UNORGANISED-->
+  <!-- let us malke it look more organised by using the table format-->
+
+  <!--
+  <h2>EMERGENCY CONTACT</h2>
+  <table cellspacing= "20">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Relation</th>
+        <th>Contact</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Santosh Mandrekar</td>
+        <td>Father</td>
+        <td>986******</td>
+      </tr>
+
+      <tr>
+        <td>Ashwini Mandrekar</td>
+        <td>Mother </td>
+        <td>996******</td>
+      </tr>
+      <tr>
+        <td>Amey Mandrekar</td>
+        <td>Brother  </td>
+        <td>989******  </td>
+      </tr>
+    </tbody>
+  </table>
+-->
+<hr>
+  <!--FORM-->
+  <form  action="mailto:akku2000@icloud.com" method="post" enctype="text/plain">
+    <!--when you hit the submit of the textarea the pg goes to our home pg as the action="index.html"-->
+    <!--mailto: is used to put any of ur mail through which if anyone press submit u will get that on ur mail-->
+    <!--so we will change "index.html" to mailto:-->
+    <!-- we removed the class and added the tad enctype which tells the type of out form which is text/plain is importan-->
+<h3>Your Details</h3>
+<label>Your Name:</label>
+<input type="text" name="YourName" value="">
+
+<br>
+<label> Your Email:</label>
+<input type="email" name="YourEmail" value="">
+
+
+<br>
+<label>Your Message:</label><br >
+<textarea name="YourMessage" rows="5" cols="20"></textarea><br>
+
+
+<input type="submit">
+
+  </form>
+
+
+</body>
+
+</html>
